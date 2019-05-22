@@ -77,7 +77,7 @@ task {a} {b} = subIsZero (subSquares (leftMinusRightAddLTE {n = a} {m = b}))
 
 main : IO()
 main = do
-  putStrLn "Holy heaven and Jesus pls work"
+  putStrLn "Works!"
 
 {-
 a : (minus 5 2) * (minus 5 2) `minus` (5 + 2) * (5 + 2) = 0
